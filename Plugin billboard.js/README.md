@@ -1,6 +1,6 @@
 # Plugin billboard.js
 
-Projekt "billboard.js" przedstawia działanie tego pluginu. Wykorzystałam Bootstrapa i jQuery.
+Projekt "billboard.js" przedstawia działanie tego pluginu. W projetkowaniu wykorzystałam Bootstrap'a i jQuery.
 
 <p align="center">
   <img src="https://github.com/Dorota1997/Projektowanie_Stron/blob/master/images/plugin1.PNG" height="350" /><br/><br/><br/>

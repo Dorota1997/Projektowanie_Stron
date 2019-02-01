@@ -1,6 +1,6 @@
 # Blog o książkach 
 
-Projekt "Blog o książkach" to połączenie Bootstrapa, CSS, jQuery i JavaScript.  
+Projekt "Blog o książkach" to połączenie Bootstrap'a, CSS'a, jQuery i JavaScript'u.  
 
 <p align="center">
   <img src="https://github.com/Dorota1997/Projektowanie_Stron/blob/master/images/blog1.PNG" height="350" /><br/><br/><br/>
