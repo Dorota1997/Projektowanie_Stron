@@ -1,5 +1,7 @@
 # Wszystko o drzewach
 
+Projekt "Wszystko o drzewach" składa się głównie z samego HTML'a i CSS'a.
+
 <p align="center">
   <img src="https://github.com/Dorota1997/Projektowanie_Stron/blob/master/images/drzewa1.PNG" height="350" /><br/><br/><br/>
   <img src="https://github.com/Dorota1997/Projektowanie_Stron/blob/master/images/drzewa2.PNG" height="350" /> <br/><br/><br/>
