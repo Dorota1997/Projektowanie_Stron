@@ -1,6 +1,5 @@
 # Blog o książkach 
 
-<details><summary>:movie_camera: Zrzuty ekranu z projektu</summary>
 <p align="center">
   <img src="https://github.com/Dorota1997/Projektowanie_Stron/blob/master/images/blog1.PNG" height="350" /><br/><br/><br/>
   <img src="https://github.com/Dorota1997/Projektowanie_Stron/blob/master/images/blog2.PNG" height="350" /> <br/><br/><br/>
@@ -21,4 +20,4 @@
   <img src="https://github.com/Dorota1997/Projektowanie_Stron/blob/master/images/blog17.PNG" height="350" /> <br/><br/><br/>
   <img src="https://github.com/Dorota1997/Projektowanie_Stron/blob/master/images/blog18.PNG" height="350" />
 </p>
-</details>
+
