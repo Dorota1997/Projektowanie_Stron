@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog o drzewach</title>
+    <link rel="stylesheet" type="text/css" href="styl_formularze.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div id="strona">
+
+    <a href="index.html">
+        <header class="tytul">Wszystko o drzewach!</header>
+    </a>
+
+    <nav>
+        <a href="opis.html">
+            <div>
+                <div class="naglowki">Opis</div>
+                <div class="opisy">
+                    <ul>
+                        <li>Rodzaje drzew</li>
+                        <li>Długość życia drzew</li>
+                    </ul>
+                </div>
+            </div>
+        </a>
+
+        <a href="media.html">
+            <div class="znacznik">
+                <div class="naglowki">Media</div>
+                <div class="opisy">
+                    W tym miejscu znajdziesz zdjęcia poszczególnych drzew
+                </div>
+            </div>
+        </a>
+
+        <a href="tabele.html">
+            <div class="znacznik">
+                <div class="naglowki">Tabele</div>
+                <div class="opisy">
+                    W tym miejscu znajdziesz tabele przedstawiającą np. strukturę gatunkową drzew w Polsce.
+                </div>
+            </div>
+        </a>
+
+        <a href="animacje.html">
+            <div class="znacznik">
+                <div class="naglowki">Animacje</div>
+                <div class="opisy">
+                    W tym miejscu znajdują się animacje.
+                </div>
+            </div>
+        </a>
+
+        <a href="formularze.html">
+            <div class="znacznik">
+                <div class="naglowki">Formularze</div>
+                <div class="opisy">
+                    W tym miejscu znajdują się animacje.
+                </div>
+            </div>
+        </a>
+    </nav>
+
+    <section>
+        <div class="tekst">
+            <br/>
+            <p>
+                Jeżeli chciałbyś dowiedzieć się czegoś więcej o danym drzewie, napisz do nas.<br/>
+                Wystarczy, że wypełnisz poniższy formularz swoimi danymi, a my odezwiemy się do Ciebie.
+            </p>
+            <form action="formularze.html">
+                <label>Imię i nazwisko</label><br/>
+                <input class="dane" type="text" name="pole1" maxlength="25" required>
+                <br/>
+                <label>E-mail</label><br/>
+                <input class="dane" type="text" name="pole2" maxlength="25" required>
+                <br/>
+                <label>Treść</label><br/>
+                <textarea rows="5.5" cols="55"></textarea>
+                <br/><br/>
+                <input type="submit" class="button" value="Wyślij">
+            </form>
+        </div>
+    </section>
+
+    <div class="clear">
+        <footer>
+            <div class="stopkaMod">
+                <p id="lewyTekst">Copyright &copy; Dorota Gil</p>
+            </div>
+
+            <div class="stopkaMod">
+                <p id="prawyTekst"><a href="./index.html">Powrót do strony głównej</a></p>
+            </div>
+        </footer>
+    </div>
+
+</div>
+
+</body>
+</html>
