@@ -1,0 +1,161 @@
+html, body, #strona {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background: #ADADFF;
+}
+
+body
+{
+    font-family: "Times New Roman",arial,sans-serif;
+    font-size: 62.5%;
+}
+
+header
+{
+    letter-spacing: 2px;
+    text-shadow: #fff 0 0 10px;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30%;
+    width: 80%;
+    text-align: center;
+    font-size: 600.0%;
+    color: #FFFFFF;
+    background-color: #6b3838;
+    margin: 0 0 0 10%;
+}
+
+nav
+{
+    height: 160%;
+    width: 25%;
+    float: left;
+    background-color: #E5E5E5;
+    font-size: 100%;
+    margin: 0 0 0 10%;
+}
+
+section {
+    height: 160%;
+    width: 55%;
+    float: left;
+    font-size: 150%;
+    background-color: #E5E5E5;
+    margin: 0 0 0 0;
+}
+
+footer
+{
+    height: 10%;
+    width: 80%;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    float: left;
+    text-align: left;
+    background-color: #E5E5E5;
+    margin: 0 0 0 10%;
+    /* Ramka */
+    /* border: 1px solid blue; */
+}
+
+nav div
+{
+    background-color: #FFFFFF;
+    /* góra, prawo, dół, lewo */
+    margin: 8% 15% 8% 15%;
+    height: 8%;
+}
+
+.naglowki {
+    width: 100%;
+    background-color: #9999FF;
+    margin: 0;
+    text-align: center;
+    font-size: 200.0%;
+    height: 35%;
+}
+
+.tytul {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 auto;
+    border: none;
+    font: 600.0% "Anton", Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 1mm;
+    text-shadow: 4px 4px 0 #e5e5e5, 6px 6px 0 #f2f2f2 ;
+}
+
+.opisy {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-size: 130%;
+}
+
+.tekst {
+    margin: 0 7% 0 7%;
+    text-align: justify;
+}
+
+.clear
+{
+    clear: both;
+    font-size: 150.0%;
+    color: #000000;
+}
+
+.stopkaMod {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#lewyTekst {
+    text-align: left;
+    margin: 4% 0% 4% 2%;
+}
+
+#prawyTekst {
+    text-align: right;
+    margin: 4% 2% 4% 0%;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2b2626;
+}
+
+@media only screen and (max-width: 768px) {
+    header, nav, section, footer {
+        float: left;
+        display: block;
+        min-width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .tytul {
+        font: 400% "Anton", Helvetica, sans-serif;
+    }
+}

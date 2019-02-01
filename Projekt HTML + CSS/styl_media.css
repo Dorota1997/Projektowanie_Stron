@@ -1,0 +1,25 @@
+.sidebar {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border: 1px dotted #a36666;
+    border-top: 20px solid #a36666;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    font-size: 130%;
+}
+
+.wiersz {
+    height: 28%;
+    width: 100%;
+    float: left;
+}
+
+.zdjecia img {
+    margin: 3.5% 2% 2% 2%;
+    width: 20%;
+    float: left;
+}

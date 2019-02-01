@@ -1,0 +1,12 @@
+.wiersz {
+    width: 100%;
+    height: 25%;
+}
+
+.zdjecia img {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 3%;
+    width: 20%;
+    float: left;
+}

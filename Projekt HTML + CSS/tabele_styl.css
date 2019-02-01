@@ -1,0 +1,13 @@
+table {
+    border: 4px solid #934c4c;
+    background-color: #d1b2b2;
+}
+
+thead {
+    background-color: #a36666;
+    font-size: 120%;
+}
+
+tbody {
+    background-color: #b27f7f;
+}
