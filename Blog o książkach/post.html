@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog o książkach</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.mojeStrony').click(function() {
+                var url=$(this).attr('href');
+                $('#info').load(url+'#newsItem');
+                return false;
+            }); //koniec funkcji click
+        }); // koniec funkcji ready
+    </script>
+  </head>
+
+<body>
+<div id="info">
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/f10.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1 style="font-family: 'Atma', sans-serif;">Wszystkie tytuły książek</h1>
+              <span class="subheading">Tytuły poleconych książek</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto jumbotron">
+            <h2 class="post-title display-4 text-center" style="margin-bottom: 8%; font-family: 'Arima Madurai', sans-serif;">Wyszukaj książkę</h2>
+            <blockquote class="blockquote">
+              <input class="form-control" id="myInput" type="text" placeholder="Wpisz tytuł książki">
+              <ul class="list-group" id="myList">
+                <li class="list-group-item form-control"><a href="niezgodna.html" class="mojeStrony">Veronica Roth - Niezgodna</a></li>
+                <li class="list-group-item form-control"><a href="eleonora.html" class="mojeStrony">Rainbow Rowell - Eleonora i Park</a></li>
+                <li class="list-group-item form-control"><a href="gwiazd.html" class="mojeStrony">John Green - Gwiazd naszych wina</a></li>
+                <li class="list-group-item form-control"><a href="fangirl.html" class="mojeStrony">Rainbow Rowell - Fangirl</a></li>
+                <li class="list-group-item form-control"><a href="hopeless.html" class="mojeStrony">Hoover Colleen - Hopeless</a></li>
+                <li class="list-group-item form-control"><a href="chlopak.html" class="mojeStrony">Scott Ginger - Chłopak taki jak ty</a></li>
+                <li class="list-group-item form-control"><a href="dziesiec.html" class="mojeStrony">Whitney Barbetti - Dziesięć poniżej zera</a></li>
+                <li class="list-group-item form-control"><a href="snieznanoc.html" class="mojeStrony">Green John, Johnson Maureen, Myracle Lauren - W śnieżną noc</a></li>
+              </ul>
+            </blockquote>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active post-preview">
+                        <a href="niezgodna.html" class="mojeStrony">
+                          <p style="font-family: 'Arima Madurai', sans-serif;">
+                            Veronica Roth „Niezgodna”
+                          </p>
+                          <img class="d-block w-100" src="./img/roth.jpg" alt="First slide">
+                        </a>
+                        <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on September 24, 2018</p>
+                      </div>
+
+                      <div class="carousel-item post-preview">
+                        <a href="eleonora.html" class="mojeStrony">
+                          <p style="font-family: 'Arima Madurai', sans-serif;">
+                            Rainbow Rowell „Eleonora i Park”
+                          </p>
+                          <img class="d-block w-100" src="./img/eleonora.jpg" alt="Second slide">
+                        </a>
+                        <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on September 18, 2018</p>
+                      </div>
+
+                      <div class="carousel-item post-preview">
+                        <a href="gwiazd.html" class="mojeStrony">
+                          <p style="font-family: 'Arima Madurai', sans-serif;">
+                            John Green „Gwiazd naszych wina”
+                          </p>
+                          <img class="d-block w-100" src="./img/gwiazd.jpg" alt="Third slide">
+                        </a>
+                        <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on August 24, 2018</p>
+                      </div>
+
+                      <div class="carousel-item post-preview">
+                        <a href="fangirl.html" class="mojeStrony">
+                          <p style="font-family: 'Arima Madurai', sans-serif;">
+                            Rainbow Rowell "Fangirl"
+                          </p>
+                          <img class="d-block w-100" src="./img/fangirl.jpg" alt="Third slide">
+                        </a>
+                        <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on June 2, 2018</p>
+                      </div>
+
+                      <div class="carousel-item post-preview">
+                        <a href="hopeless.html" class="mojeStrony">
+                          <p style="font-family: 'Arima Madurai', sans-serif;">
+                            Hoover Colleen "Hopeless"
+                          </p>
+                          <img class="d-block w-100" src="./img/hopeless.jpg" alt="Third slide">
+                        </a>
+                        <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on May 24, 2018</p>
+                      </div>
+
+                      <div class="carousel-item post-preview">
+                        <a href="chlopak.html" class="mojeStrony">
+                          <p style="font-family: 'Arima Madurai', sans-serif;">
+                            Scott Ginger „Chłopak taki jak ty”
+                          </p>
+                          <img class="d-block w-100" src="./img/chlopak.jpg" alt="Third slide">
+                        </a>
+                        <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on April 19, 2018</p>
+                      </div>
+
+                      <div class="carousel-item post-preview">
+                        <a href="dziesiec.html" class="mojeStrony">
+                          <p style="font-family: 'Arima Madurai', sans-serif;">
+                            Whitney B. "Dziesięć poniżej zera"
+                          </p>
+                          <img class="d-block w-100" src="./img/dziesiec.jpg" alt="Third slide">
+                        </a>
+                        <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on April 3, 2018</p>
+                      </div>
+
+                      <div class="carousel-item post-preview">
+                        <a href="snieznanoc.html" class="mojeStrony">
+                          <p style="font-family: 'Arima Madurai', sans-serif;">
+                            Green John "W śnieżną noc"
+                          </p>
+                          <img class="d-block w-100" src="./img/snieznanoc.jpg" alt="Third slide">
+                        </a>
+                        <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on March 20, 2018</p>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </article>
+
+    <script>
+        $(document).ready(function(){
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#myList li").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+</div>
+
+</body>
+</html>

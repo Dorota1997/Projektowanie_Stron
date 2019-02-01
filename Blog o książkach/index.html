@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog o książkach</title>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Arima+Madurai&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Atma&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+      $(document).ready(function() {
+          $('.mojeStrony').click(function() {
+              var url=$(this).attr('href');
+              $('#info').load(url+'#newsItem');
+              return false;
+          }); //koniec funkcji click
+      }); // koniec funkcji ready
+  </script>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">THE BEST BOOKS</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">STRONA GŁÓWNA</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link mojeStrony">O MNIE</a>
+            </li>
+            <li class="nav-item">
+              <a href="post.html" class="nav-link mojeStrony">WSZYSTKIE TYTUŁY KSIĄŻEK</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link mojeStrony">KONTAKT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <div id="info">
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/f6.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1 style="font-family: 'Atma', sans-serif;"> Blog o Książkach</h1>
+              <span class="subheading">Recenzje najlepszych książek dla młodzieży</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-preview">
+            <a href="niezgodna.html" class="mojeStrony">
+              <h2 class="post-title" style="font-family: 'Arima Madurai', sans-serif;">
+                Veronica Roth „Niezgodna”
+              </h2>
+                <img src="img/roth.jpg" height="500" width="352" alt="ksiazka"/>
+            </a>
+            <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on September 24, 2018</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="eleonora.html" class="mojeStrony">
+              <h2 class="post-title" style="font-family: 'Arima Madurai', sans-serif;">
+                Rainbow Rowell „Eleonora i Park”
+              </h2>
+                <img src="img/eleonora.jpg" height="500" width="352" alt="ksiazka"/>
+            </a>
+            <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on September 18, 2018</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="gwiazd.html" class="mojeStrony">
+              <h2 class="post-title" style="font-family: 'Arima Madurai', sans-serif;">
+                John Green „Gwiazd naszych wina”
+              </h2>
+                <img src="img/gwiazd.jpg" height="500" width="352" alt="ksiazka"/>
+            </a>
+            <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on August 24, 2018</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="fangirl.html" class="mojeStrony">
+              <h2 class="post-title" style="font-family: 'Arima Madurai', sans-serif;">
+                Rainbow Rowell "Fangirl"
+              </h2>
+                <img src="img/fangirl.jpg" height="500" width="352" alt="ksiazka"/>
+            </a>
+            <p class="post-meta">Posted by <a href="#">THE BEST BOOKS</a> on June 2, 2018</p>
+          </div>
+          <hr>
+          <!-- Pager -->
+           <div class="clearfix ">
+            <a href="starsze.html" class="mojeStrony btn btn-primary float-right" >Starsze wpisy &rarr;</a>
+          </div>
+          <hr>
+
+          <section class="p-0" id="galeria">
+            <h2 class="post-title text-center" style="font-family: 'Atma', sans-serif;">
+              Galeria
+            </h2>
+            <div class="container-fluid p-0">
+              <div class="row no-gutters popup-gallery">
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="./img/hopeless.jpg">
+                    <img class="img-fluid" src="./img/hopeless.jpg" alt="wykres">
+                    <div class="portfolio-box-caption">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="./img/gwiazd.jpg">
+                    <img class="img-fluid" src="./img/gwiazd.jpg" alt="wykres">
+                    <div class="portfolio-box-caption">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="./img/fangirl.jpg">
+                    <img class="img-fluid" src="./img/fangirl.jpg" alt="wykres">
+                    <div class="portfolio-box-caption">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="./img/eleonora.jpg">
+                    <img class="img-fluid" src="./img/eleonora.jpg" alt="wykres">
+                    <div class="portfolio-box-caption">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="./img/dziesiec.jpg">
+                    <img class="img-fluid" src="./img/dziesiec.jpg" alt="wykres">
+                    <div class="portfolio-box-caption">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="./img/chlopak.jpg">
+                    <img class="img-fluid" src="./img/chlopak.jpg" alt="wykres">
+                    <div class="portfolio-box-caption">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="./img/roth.jpg">
+                    <img class="img-fluid" src="./img/roth.jpg" alt="wykres">
+                    <div class="portfolio-box-caption">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="./img/snieznanoc.jpg">
+                    <img class="img-fluid" src="./img/snieznanoc.jpg" alt="wykres">
+                    <div class="portfolio-box-caption">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Dorota Gil 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/skrypty.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+</body>
+</html>
