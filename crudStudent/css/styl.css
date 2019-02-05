@@ -1,0 +1,53 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.nazwaSystemu {
+    font-size: 150%;
+    position: center;
+}
+
+.img-fluid {
+    margin: 0 0 0 0;
+    position: center;
+}
+
+.text {
+    margin-left: 17%;
+    font-size: 130%;
+}
+
+.zdj {
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.text-justify {
+    font-size: 130%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text-black-50 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar-nav {
+    height: 100%;
+    width: 100%;
+    font-size: 130%;
+    position:center;
+}
+
+.tloStrony {
+ /*   background-color: #D1B894; */
+    background-color: #9ab5b5;
+}
+
+/* Wlasciwosci dla podtytulow w jumbotronach */
+#diagramDDL_nazwa, #slownik_nazwa, #dpu_nazwa, #diagObiektow_nazwa, #diag_klas_nazwa, #analiza_wymag_nazwa {
+
+    background-color: #588585;
+}
