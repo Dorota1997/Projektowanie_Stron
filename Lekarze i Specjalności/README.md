@@ -1,6 +1,6 @@
-# CRUD Student
+# Lekarze i Specjalności
 
-Projekt "CRUD Student" to połączenie Php'a i Bootstrapa 
+Projekt "Lekarze i Specjalności" to połączenie Php'a i Bootstrap'a
 
 <p align="center">
   <img src="https://github.com/Dorota1997/Projektowanie_Stron/blob/master/images/lekarze1.PNG" height="350" /><br/><br/><br/>
