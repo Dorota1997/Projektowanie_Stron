@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="panel panel-primary" style="margin-top: 7%;">
+        <div class="panel-heading"><h1>Jak pobrać billboard.js?</h1></div>
+        <div class="panel-body">
+            <p>Jeżeli chcesz zamieścić na swojej stronie wykres z biblioteki billboard.js
+                postępuj według poniższych wskazówek:<br/></p>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Krok 1</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapsing">
+                        <div class="panel-body">
+                            <p>Załaduj plik D3.js<br/>
+                                &lt;script src="https://d3js.org/d3.v5.min.js"&gt&lt;/script&gt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Krok 2</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Załaduj billboard.js<br/>
+                                &lt;script src="$YOUR_PATH/billboard.js"&gt&lt;/script&gt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Krok 3</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Załaduj billboard.css<br/>
+                                &lt;link rel="stylesheet" href="$YOUR_PATH/billboard.css"&gt</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Krok 4</a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Załaduj inny styl motywu<br/>
+                                &lt;link rel="stylesheet" href="$YOUR_PATH/theme/insight.css"&gt</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Krok 5</a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Skonfiguruj swój uchwyt wykresu<br/>
+                                &lt;div id="chart"&gt&lt;/div&gt</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Krok 6</a>
+                        </h4>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Wygeneruj wykres z opcjami<br/>
+                                var chart = bb.generate({<br/>
+                                &emsp;bindto: "#chart",<br/>
+                                &emsp;data: {<br/>
+                                &emsp;&emsp;type: "bar",<br/>
+                                &emsp;&emsp;columns: [<br/>
+                                &emsp;&emsp;&emsp;["data1", 30, 200, 100, 170, 150, 250],<br/>
+                                &emsp;&emsp;&emsp;["data2", 130, 100, 140, 35, 110, 50]<br/>
+                                &emsp;&emsp;]<br/>
+                                &emsp;}<br/>
+                                });
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
